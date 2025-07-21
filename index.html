@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Mentor Results summary component challenge built using HTML and CSS." />
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Result summary component</title>
+</head>
+
+<body>
+  <main class="card">
+    <div class="card__container card__container--left">
+      <h1 class="card__title">Your Result</h1>
+      <div class="card__score">
+        <span class="card__score-number">76</span>
+        <span class="card__score-total">of 100</span>
+      </div>
+      <h2 class="card__result-label">Great</h2>
+      <p class="card__description">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </div>
+
+    <div class="card__container card__container--right">
+      <h2 class="card__summary-title">Summary</h2>
+      <ul class="card__summary-list">
+        <li class="card__summary-item card__summary-item--reaction">
+          <div class="card__summary-left">
+            <img src="./assets/images/icon-reaction.svg" alt="Reaction icon" class="card__summary-icon" />
+            <span class="card__summary-category">Reaction</span>
+          </div>
+          <span class="card__summary-score">
+            <span class="card__summary-score-number">80</span>
+            <span class="card__summary-score-total"> / 100</span>
+          </span>
+        </li>
+        <li class="card__summary-item card__summary-item--memory">
+          <div class="card__summary-left">
+            <img src="./assets/images/icon-memory.svg" alt="Memory icon" class="card__summary-icon" />
+            <span class="card__summary-category">Memory</span>
+          </div>
+          <span class="card__summary-score">
+            <span class="card__summary-score-number">92</span>
+            <span class="card__summary-score-total"> / 100</span>
+          </span>
+        </li>
+        <li class="card__summary-item card__summary-item--verbal">
+          <div class="card__summary-left">
+            <img src="./assets/images/icon-verbal.svg" alt="Verbal icon" class="card__summary-icon" />
+            <span class="card__summary-category">Verbal</span>
+          </div>
+          <span class="card__summary-score">
+            <span class="card__summary-score-number">61</span>
+            <span class="card__summary-score-total"> / 100</span>
+          </span>
+        </li>
+        <li class="card__summary-item card__summary-item--visual">
+          <div class="card__summary-left">
+            <img src="./assets/images/icon-visual.svg" alt="Visual icon" class="card__summary-icon" />
+            <span class="card__summary-category">Visual</span>
+          </div>
+          <span class="card__summary-score">
+            <span class="card__summary-score-number">73</span>
+            <span class="card__summary-score-total"> / 100</span>
+          </span>
+        </li>
+      </ul>
+      <button class="card__button">Continue</button>
+    </div>
+  </main>
+</body>
+
+</html>
