@@ -21,6 +21,7 @@
   --faded-yellow: hsla(39, 100%, 56%, 0.1);
   --faded-teal: hsla(166, 100%, 37%, 0.1);
   --faded-blue: hsla(234, 85%, 45%, 0.1);
+  --box-shadow-light: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 html,
@@ -212,7 +213,7 @@ body {
     min-height: 500px;
     margin: 4rem auto;
     border-radius: 30px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow-light);
   }
 
   .card__container--left {
