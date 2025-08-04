@@ -10,3 +10,12 @@ This project is my solution to the Results Summary Component challenge on Fronte
 - CSS
 - Flexbox
 
+## Screenshots
+
+### Desktop View
+
+![Desktop Screenshot](./assets/images/screenshot-desktop.png)
+
+### Mobile View
+
+![Mobile Screenshot](./assets/images/screenshot-mobile.png)
