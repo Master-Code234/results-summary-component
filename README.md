@@ -19,3 +19,8 @@ This project is my solution to the Results Summary Component challenge on Fronte
 ### Mobile View
 
 ![Mobile Screenshot](./assets/images/screenshot-mobile.png)
+
+## What I learned
+- Mobile-first approach
+- The use of the type attribute on buttons and why it is important for forms
+- How to organize HTML and CSS using BEM methodology
